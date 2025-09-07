@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Page 1 🧠✨</h1>
+        <button id="theme-toggle">Switch to Dark Mode</button>
+    </header>
+    <main>
+        <section>
+            <h2>1. Click Counter 🎮 (JavaScript Event Handling and Interactive Elements)</h2>
+            <button id="count-btn">Click Me!</button>
+            <span id="count-display">0</span> clicks
+        </section>
+        
+        <section>
+            <h2>2. Collapsible FAQ Section  (Building Interactive Elements)</h2>
+            <div class="faq">
+                <button class="faq-question">What is this page?</button>
+                <div class="faq-answer">It's a demo for interactive JavaScript features!</div>
+                <button class="faq-question">How does the counter work?</button>
+                <div class="faq-answer">Each click increases the count and updates the display.</div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>3. Form (With Validation) 📋✅</h2>
+            <form id="contact-form" novalidate>
+                <label>Name: <input type="text" name="name" id="name"></label>
+                <span class="error" id="name-error"></span><br>
+                <label>Email: <input type="email" name="email" id="email"></label>
+                <span class="error" id="email-error"></span><br>
+                <label>Password: <input type="password" name="password" id="password"></label>
+                <span class="error" id="password-error"></span><br>
+                <button type="submit">Submit</button>
+                <div id="form-success"></div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
